@@ -56,11 +56,15 @@ header {
 }
 
 #about-photo img {
-  max-width: 500px;
+  max-width: 630px;
   height: auto;
 }
 
 #about-section,
 #project-section {
   padding: 50px 0;
+}
+
+#about-text p {
+  padding: 100px 20px;
 }
