@@ -1,0 +1,48 @@
+:root {
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+header {
+  margin-top: 100px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 3px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.project-link {
+  background: blue;
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.project-link:hover {
+  color: blue;
+  border: 1px solid blue;
+  background-color: white;
+}
+
+.contact-link {
+  color: blue;
+  border: 1px solid blue;
+}
+
+.contact-link:hover {
+  background: blue;
+  box-shadow: var(--box-shadow);
+  color: white;
+}
