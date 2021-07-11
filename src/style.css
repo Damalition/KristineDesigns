@@ -18,12 +18,18 @@ header {
   justify-content: center;
 }
 
-.navigation-links a {
+.navigation-links a,
+.button-links a {
   margin: 20px;
   border-radius: 3px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.button-links {
+  display: block;
+  justify-content: center;
 }
 
 .project-link {
@@ -47,21 +53,18 @@ header {
   color: #fbdbc0;
 }
 
+#about-photo img,
 #fashion img,
 #photo img,
 #web img {
-  max-width: 450px;
-  height: auto;
-  margin: 0;
-}
-
-#about-photo img {
-  max-width: 630px;
+  max-width: 100%;
   height: auto;
 }
 
 #about-section,
 #project-section {
+  display: flex;
+  justify-content: space-evenly;
   padding: 50px 0;
 }
 
