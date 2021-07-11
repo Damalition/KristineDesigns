@@ -1,8 +1,6 @@
 h1,
 h2,
-#web,
-#photo,
-#fashion {
+h3 {
   text-align: center;
 }
 
@@ -12,14 +10,20 @@ header {
   padding-bottom: 100px;
 }
 
-.navigation-links {
+.navigation-links,
+.project-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
 
+.project-links {
+  margin-top: 200px;
+}
+
 .navigation-links a,
-.button-links a {
+.button-links a,
+.project-links a {
   margin: 20px;
   border-radius: 3px;
   padding: 20px 15px;
@@ -32,37 +36,26 @@ header {
   justify-content: center;
 }
 
-.project-link {
+.project-link,
+.contact-link:hover {
   background: #8b0000;
   color: #fbdbc0;
 }
-.project-link:hover {
-  color: #8b0000;
-  background: #fbdbc0;
-  border: 1px solid #8b0000;
-}
-
+.project-link:hover,
 .contact-link {
   color: #8b0000;
   background: #fbdbc0;
   border: 1px solid #8b0000;
 }
 
-.contact-link:hover {
-  background: #8b0000;
-  color: #fbdbc0;
-}
-
 #about-photo img,
-#fashion img,
-#photo img,
-#web img {
+.card img {
   max-width: 100%;
   height: auto;
+  border-radius: 3px;
 }
 
-#about-section,
-#project-section {
+#about-section {
   display: flex;
   justify-content: space-evenly;
   padding: 50px 0;
@@ -70,4 +63,8 @@ header {
 
 #about-text p {
   padding: 100px 20px;
+}
+
+.card {
+  border: none !important;
 }
