@@ -10,20 +10,14 @@ header {
   padding-bottom: 100px;
 }
 
-.navigation-links,
-.project-links {
+.navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
 
-.project-links {
-  margin-top: 200px;
-}
-
 .navigation-links a,
-.button-links a,
-.project-links a {
+.button-links a {
   margin: 20px;
   border-radius: 3px;
   padding: 20px 15px;
@@ -67,4 +61,5 @@ header {
 
 .card {
   border: none !important;
+  padding-bottom: 100px;
 }
