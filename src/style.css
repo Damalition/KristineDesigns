@@ -4,10 +4,19 @@ h3 {
   text-align: center;
 }
 
-header {
+header,
+footer {
   background: #fbdbc0;
+}
+
+header {
   padding-top: 120px;
   padding-bottom: 100px;
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .navigation-links {
