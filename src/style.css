@@ -4,6 +4,10 @@ h3 {
   text-align: center;
 }
 
+form {
+  margin: 50px 300px;
+}
+
 header,
 footer {
   background: #fbdbc0;
